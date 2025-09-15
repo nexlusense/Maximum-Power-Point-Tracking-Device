@@ -1,0 +1,248 @@
+(footprint "DMT6018LDR13"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "DMT6018LDR-13")
+	(tags "MOSFET (N-Channel)")
+	(property "Reference" "Q**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "1386eda6-6222-4fbf-9654-7052812fbbcc")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "DMT6018LDR13"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "4c562af6-3d17-4eac-8172-7b1e66f5dca0")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0dae28b2-2b81-466a-9204-cf6eea43774a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4d0cce82-77e8-48fb-861e-a07e85e94e32")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "899d8271-c9d2-4a0b-ab97-abf682a8808b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.1 2.1)
+		(end -1.1 2.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "52084238-d30e-4527-8b0c-d7765e12f96b")
+	)
+	(fp_line
+		(start -1 2.1)
+		(end -1 2.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e647d224-f3ac-46bf-83e8-7c13c4092734")
+	)
+	(fp_arc
+		(start -1.1 2.1)
+		(mid -1.05 2.05)
+		(end -1 2.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "452722f1-0346-4c84-a53d-cfca07717001")
+	)
+	(fp_arc
+		(start -1 2.1)
+		(mid -1.05 2.15)
+		(end -1.1 2.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "904d94ce-0302-421d-b3ac-5222999db701")
+	)
+	(fp_line
+		(start -2.5 -2.65)
+		(end 2.5 -2.65)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d9b12b35-7058-44a6-9705-4cccf7bfbfe8")
+	)
+	(fp_line
+		(start -2.5 2.65)
+		(end -2.5 -2.65)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "8e81959a-64de-4457-bbb3-65efc68056ad")
+	)
+	(fp_line
+		(start 2.5 -2.65)
+		(end 2.5 2.65)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "748cfea7-ec69-4908-9752-45048c3d98f7")
+	)
+	(fp_line
+		(start 2.5 2.65)
+		(end -2.5 2.65)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "5612e0eb-2ca8-4140-ab2d-17b3d213ebeb")
+	)
+	(fp_line
+		(start -1.5 -1.5)
+		(end 1.5 -1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2fd09b85-0f10-4439-953d-500b14161794")
+	)
+	(fp_line
+		(start -1.5 1.5)
+		(end -1.5 -1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d0a96c43-33ab-42f9-9290-f2361d374640")
+	)
+	(fp_line
+		(start 1.5 -1.5)
+		(end 1.5 1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "165ff0e7-7eba-4d80-a287-fd75b05ccc95")
+	)
+	(fp_line
+		(start 1.5 1.5)
+		(end -1.5 1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b6e06050-0487-4b80-b3dc-8e3eb954feda")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "8234cdce-9a45-4f0b-8d81-f7399a955483")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.037 1.375)
+		(size 0.42 0.55)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "7fa3fbfb-7467-449d-bbf7-659978c2ee9b")
+	)
+	(pad "2" smd rect
+		(at 0.288 1.375 90)
+		(size 0.55 1.92)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "034c871e-7086-4927-8001-e4696668255c")
+	)
+	(pad "3" smd rect
+		(at 0.263 -1.375 90)
+		(size 0.55 1.92)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "7459ae37-a8bd-4b6d-9848-ab2bbc057772")
+	)
+	(pad "4" smd rect
+		(at -1.037 -1.375)
+		(size 0.42 0.55)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "1a5b9a81-5a47-4194-adb7-1b4a7bd997cd")
+	)
+	(pad "5" smd rect
+		(at 0 -0.525 90)
+		(size 0.79 2.7)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "93554dfa-4cee-4d53-909c-3938227111bd")
+	)
+	(pad "6" smd rect
+		(at 0 0.525 90)
+		(size 0.79 2.7)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "976a53a3-3759-4cf6-8198-bc0cc6d113d9")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Custom_OUAIMNet.3dshapes/DMT6018LDR-13.stp"
+		(offset
+			(xyz 0 0 0.7900000096)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 90 0 0)
+		)
+	)
+)
