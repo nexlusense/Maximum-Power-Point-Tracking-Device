@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "Custom_OUAIMNet")(type "KiCad")(uri "${KIPRJMOD}/Custom_OUAIMNet.kicad_sym")(options "")(descr ""))
+)
